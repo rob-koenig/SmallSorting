@@ -1,0 +1,22 @@
+1. and 2.
+insertion sort          n=   1000: 252172 moves (avg),  251173 comparisons (avg),       0ms (avg)
+insertion sort          n=   2000: 1251094 moves (avg), 1248096 comparisons (avg),      2.3ms (avg)
+insertion sort          n=   4000: 5267921 moves (avg), 5260924 comparisons (avg),      12.8ms (avg)
+insertion sort          n=   8000: 21276660 moves (avg),        21261664 comparisons (avg),     53.5ms (avg)
+insertion sort          n=  16000: 85333849 moves (avg),        85302854 comparisons (avg),     206.3ms (avg)
+merge sort              n=  32000: 479232 moves (avg),  438538 comparisons (avg),       4ms (avg)
+merge sort              n=  64000: 1501696 moves (avg), 1379707 comparisons (avg),      13.2ms (avg)
+merge sort              n= 128000: 3674624 moves (avg), 3389978 comparisons (avg),      32.7ms (avg)
+merge sort              n= 256000: 8276480 moves (avg), 7666512 comparisons (avg),      74.4ms (avg)
+merge sort              n= 512000: 17992192 moves (avg),        16731526 comparisons (avg),     161.9ms (avg)
+merge-insertion sort    n=  32000: 511232 moves (avg),  241409 comparisons (avg),       6.6ms (avg)
+merge-insertion sort    n=  64000: 1597696 moves (avg), 756226 comparisons (avg),       21.6ms (avg)
+merge-insertion sort    n= 128000: 3898624 moves (avg), 1849859 comparisons (avg),      55.6ms (avg)
+merge-insertion sort    n= 256000: 8756480 moves (avg), 4165124 comparisons (avg),      121.4ms (avg)
+merge-insertion sort    n= 512000: 18984192 moves (avg),        9051653 comparisons (avg),      260.2ms (avg)
+
+3.
+It seems that 10 and 20 were very close in their result and were the fastest. Initially I chose 10
+just because it was mentioned in the project description. From there I went up and down in incraments
+of 5 with occational prime numbers added in too. The size 10 being the most efficient was not a big
+suprise to me and seemed consistently the most efficient with all the different sized inputs.
